@@ -19,6 +19,10 @@ class person : protected entity {
      std::string state;
      std::string zipcode;
      service_list services;
+  public:
+     int hash() {
+       return id;
+     }
  };
 
 #endif

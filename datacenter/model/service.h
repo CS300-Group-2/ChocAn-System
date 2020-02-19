@@ -16,8 +16,9 @@ struct service : public entity {
     id_num providerID;
     id_num serviceCode;
     std::string comments;
-
-    int hash();
+    int hash() {
+      return timeOfCreation;
+    }
 };
 
 #endif

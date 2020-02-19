@@ -10,6 +10,9 @@
 //as simple bags of items
 struct entity {
 		id_num id;
+
+    virtual int hash();
+
 };
 
 #endif
