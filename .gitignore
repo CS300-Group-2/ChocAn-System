@@ -31,3 +31,7 @@
 *.out
 *.app
 ChocAn
+
+#vim
+.swp
+.*.swp
