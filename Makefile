@@ -1,19 +1,8 @@
-# NOTE: All indented lines are indented with a tab character.
+#Code for this make file adapted from:
+#https://stackoverflow.com/a/14589770
+#and
+#https://stackoverflow.com/a/14590222
 
-#CC=gcc
-#CFLAGS= -g -Wall
-#DFLAGS=
-#PROGS= chochan
-
-#all: $(PROGS)
-
-#%: %.c
-#	$(CC) $(CFLAGS) $(DFLAGS) $< -o $@ -lm
-#
-#clean:
-#	rm -f $(PROGS) *.o ~*
-#
-#
 CC = g++
 CFLAGS = -c -Wall -g -Os
 LD = $(CC)
