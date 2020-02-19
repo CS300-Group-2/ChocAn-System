@@ -14,7 +14,7 @@ SOURCES=$(shell find . -type f -iname '*.c')
 
 OBJECTS=$(foreach x, $(basename $(SOURCES)), $(x).o)
 
-TARGET=bin/ChocAn
+TARGET=ChocAn
 
 $(TARGET): $(OBJECTS)
 	$(CC) $^ -o $@
