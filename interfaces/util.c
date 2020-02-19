@@ -1,4 +1,5 @@
-//
-char getOption(char *valid, char *input) {
+#include "util.h"
+
+void getOption(const char *valid, char *input) {
 
 }

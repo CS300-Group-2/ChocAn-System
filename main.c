@@ -1,5 +1,5 @@
 #include <iostream>
-#include "interfaces/util.c"
+#include "interfaces.h"
 
 int main() {
     char* response = 0;
